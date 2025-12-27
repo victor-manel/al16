@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 16 Anos, Meu Amor!</title>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff5f8;
+            font-family: 'Montserrat', sans-serif;
+            color: #5a2d2d;
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images.unsplash.com');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .music-player {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+            margin: -50px auto 30px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .message {
+            font-style: italic;
+            line-height: 1.6;
+            font-size: 1.2rem;
+            margin: 40px 0;
+        }
+
+        footer {
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Feliz 16 Anos!</h1>
+        <p>Para a pessoa mais especial do meu mundo.</p>
+    </div>
+
+    <div class="container">
+        <div class="music-player">
+            <h3>Ouça a música que fiz para você ❤️</h3>
+            <!-- SUBSTITUA O NOME DO ARQUIVO ABAIXO -->
+            <audio controls>
+                <source src="WhatsApp Audioa.mpeg" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+            <p style="font-size: 0.8rem; color: #ff69b4; margin-top: 10px;">Dê o play e leia a mensagem abaixo</p>
+        </div>
+
+        <div class="message">
+            <p>"Neste seu aniversário de 16 anos, eu quis transformar em melodia tudo o que sinto por você. Cada nota desta música carrega uma memória nossa e a promessa de muitos outros anos ao seu lado. Você é a melhor coisa q me aconteceu."</p>
+        </div>
+
+        <h2>Nossos Momentos</h2>
+        <div class="photo-gallery">
+            
+            <img src="fta.jpeg" alt="Nossa Foto">
+            <img src="ftb.jpeg" alt="Nossa Foto">
+            <img src="ftc.jpeg" alt="Nossa Foto">
+        </div>
+    </div>
+
+    <footer>
+        Feito com ❤️| 23/03/2026
+    </footer>
+
+</body>
+</html>
